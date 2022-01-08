@@ -5,6 +5,7 @@ import com.twitch.twitchproject.entity.request.LoginRequestBody;
 import com.twitch.twitchproject.entity.response.LoginResponseBody;
 import com.twitch.twitchproject.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+@Controller
 public class LoginController {
     @Autowired
     private LoginService loginService;
