@@ -28,7 +28,7 @@ public class LoginController {
         // Create a new session for the user if user ID and password are correct, otherwise return Unauthorized error.
         if (!firstname.isEmpty()) {
             // Create a new session, put user ID as an attribute into the session object, and set the expiration time to 600 seconds.
-            HttpSession session = request.getSession();
+            HttpSession session = request.getSession(); // keep login data
             session.setAttribute("user_id", requestBody.getUserId());
             session.setMaxInactiveInterval(600);
 
