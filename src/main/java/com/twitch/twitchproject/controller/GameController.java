@@ -34,7 +34,7 @@ public class GameController {
             if (gameName != null) { // no game name so we get top games
                 response.getWriter().print(new ObjectMapper().writeValueAsString(gameService.searchGame(gameName)));
             } else { // have game name then we get info for this specific game
-                response.getWriter().print(new ObjectMapper().writeValueAsString(gameService.topGames(0)));
+                response.getWriter().print(new ObjectMapper().writeValueAsString(gameService.searchTopGames(0)));
             }
         } catch (TwitchException e) {
             throw new ServletException(e);
