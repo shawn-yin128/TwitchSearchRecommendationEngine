@@ -14,8 +14,12 @@ import java.util.Map;
 
 @Controller
 public class SearchController {
-    @Autowired
     private GameService gameService;
+
+    @Autowired
+    public SearchController(GameService gameService) {
+        this.gameService = gameService;
+    }
 
     @RequestMapping(value = "/search", method = RequestMethod.GET)
     @ResponseBody // auto convert object to json

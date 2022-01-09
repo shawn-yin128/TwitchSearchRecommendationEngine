@@ -13,8 +13,12 @@ import java.io.IOException;
 
 @Controller
 public class RegisterController {
-    @Autowired
     private RegisterService registerService;
+
+    @Autowired
+    public RegisterController(RegisterService registerService) {
+        this.registerService = registerService;
+    }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public void register(@RequestBody User user, HttpServletResponse response) throws IOException {

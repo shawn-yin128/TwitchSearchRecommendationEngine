@@ -3,6 +3,7 @@ package com.twitch.twitchproject.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.twitch.twitchproject.entity.request.LoginRequestBody;
 import com.twitch.twitchproject.entity.response.LoginResponseBody;
+import com.twitch.twitchproject.service.GameService;
 import com.twitch.twitchproject.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,8 +19,12 @@ import java.io.IOException;
 
 @Controller
 public class LoginController {
-    @Autowired
     private LoginService loginService;
+
+    @Autowired
+    public LoginController(LoginService loginService){ // use Spring to inject object of service
+        this.loginService = loginService;
+    }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public void login(@RequestBody LoginRequestBody requestBody, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
