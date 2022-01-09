@@ -16,7 +16,6 @@ public class ApplicationConfig {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        // make sure you add your own package name if your class is not under com.laioffer.jupiter.entity.db
         sessionFactory.setPackagesToScan("com.twitch.twitchproject.entity.db");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
@@ -24,9 +23,9 @@ public class ApplicationConfig {
 
     @Bean(name = "dataSource")
     public DataSource dataSource() {
-        String RDS_ENDPOINT = "";
-        String USERNAME = "";
-        String PASSWORD = "";
+        String RDS_ENDPOINT = "database-twitch.cvduq2qzfkmm.us-east-2.rds.amazonaws.com";
+        String USERNAME = "admin";
+        String PASSWORD = "Yinxy19980128!";
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://" + RDS_ENDPOINT + ":3306/twitch?createDatabaseIfNotExist=true&serverTimezone=UTC");
