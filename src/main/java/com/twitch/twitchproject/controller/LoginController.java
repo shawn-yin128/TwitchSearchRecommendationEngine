@@ -3,7 +3,6 @@ package com.twitch.twitchproject.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.twitch.twitchproject.entity.request.LoginRequestBody;
 import com.twitch.twitchproject.entity.response.LoginResponseBody;
-import com.twitch.twitchproject.service.GameService;
 import com.twitch.twitchproject.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -27,7 +25,7 @@ public class LoginController {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public void login(@RequestBody LoginRequestBody requestBody, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void login(@RequestBody LoginRequestBody requestBody, HttpServletRequest request, HttpServletResponse response) throws IOException {
         String firstname = loginService.verifyLogin(requestBody.getUserId(), requestBody.getPassword());
 
         // Create a new session for the user if user ID and password are correct, otherwise return Unauthorized error.

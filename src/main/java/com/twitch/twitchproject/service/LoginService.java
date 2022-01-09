@@ -8,8 +8,12 @@ import java.io.IOException;
 
 @Service
 public class LoginService {
-    @Autowired
     private LoginDao loginDao;
+
+    @Autowired
+    public LoginService(LoginDao loginDao) {
+        this.loginDao = loginDao;
+    }
 
     public String verifyLogin(String userId, String password) throws IOException {
         password = Util.encryptPassword(userId, password);

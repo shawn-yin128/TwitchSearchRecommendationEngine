@@ -8,8 +8,12 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class LoginDao {
-    @Autowired
     private SessionFactory sessionFactory;
+
+    @Autowired
+    public LoginDao(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
     // Verify if the given user Id and password are correct. Returns the user name when it passes
     public String verifyLogin(String userId, String password) {
