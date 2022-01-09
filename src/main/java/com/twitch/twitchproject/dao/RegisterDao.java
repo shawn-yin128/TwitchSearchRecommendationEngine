@@ -10,8 +10,12 @@ import javax.persistence.PersistenceException;
 
 @Repository
 public class RegisterDao {
-    @Autowired
     private SessionFactory sessionFactory;
+
+    @Autowired
+    public RegisterDao(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
     public boolean register(User user) {
         Session session = null;

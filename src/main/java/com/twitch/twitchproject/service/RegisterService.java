@@ -10,8 +10,12 @@ import java.io.IOException;
 
 @Service
 public class RegisterService {
-    @Autowired
     private RegisterDao registerDao;
+
+    @Autowired
+    public RegisterService(RegisterDao registerDao) {
+        this.registerDao = registerDao;
+    }
 
     public boolean register(User user) throws IOException {
         user.setPassword(Util.encryptPassword(user.getUserId(), user.getPassword()));
