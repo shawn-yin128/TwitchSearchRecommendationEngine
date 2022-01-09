@@ -1,7 +1,6 @@
 package com.twitch.twitchproject.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.twitch.twitchproject.entity.response.Game;
 import com.twitch.twitchproject.service.GameService;
 import com.twitch.twitchproject.service.TwitchException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +16,6 @@ import java.io.IOException;
 @Controller
 public class GameController {
     private GameService gameService;
-
-    // /game?game_name=whatever
-    // /game
 
     @Autowired
     public GameController(GameService gameService){ // use Spring to inject object of service
