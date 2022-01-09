@@ -30,7 +30,7 @@ public class Item implements Serializable {
 
     @Column(name = "broadcaster_name")
     @JsonProperty("broadcaster_name")
-    @JsonAlias({ "user_name" })
+    @JsonAlias({"user_name"})
     private String broadcasterName;
 
     @Column(name = "game_id")
