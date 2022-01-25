@@ -1,4 +1,4 @@
-const SERVER_ORIGIN = 'http://localhost:8080'; // backend server address, if local: localhost:8080, if on cloud, choose deployment url
+const SERVER_ORIGIN = '';
 
 const loginUrl = `${SERVER_ORIGIN}/login`;
 
