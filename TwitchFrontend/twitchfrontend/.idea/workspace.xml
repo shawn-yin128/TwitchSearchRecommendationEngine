@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7676bcde-9f44-4854-a4b1-aeb3d5799890" name="Changes" comment="ref()">
+    <list default="true" id="7676bcde-9f44-4854-a4b1-aeb3d5799890" name="Changes" comment="config: set proxy for local deployment">
+      <change afterPath="$PROJECT_DIR$/src/components/CustomSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +60,17 @@
       <workItem from="1642911398605" duration="17000" />
       <workItem from="1642911817845" duration="34000" />
       <workItem from="1642975467273" duration="6763000" />
-      <workItem from="1643079716257" duration="802000" />
+      <workItem from="1643079716257" duration="4483000" />
+      <workItem from="1643251834064" duration="31000" />
     </task>
+    <task id="LOCAL-00001" summary="config: set proxy for local deployment">
+      <created>1643080918950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643080918951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="config: set proxy for local deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="config: set proxy for local deployment" />
   </component>
 </project>
