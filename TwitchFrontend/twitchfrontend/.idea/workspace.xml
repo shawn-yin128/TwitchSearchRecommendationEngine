@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7676bcde-9f44-4854-a4b1-aeb3d5799890" name="Changes" comment="feat: update custom search">
+    <list default="true" id="7676bcde-9f44-4854-a4b1-aeb3d5799890" name="Changes" comment="feat: finish App.js">
       <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/asset-manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/favicon.ico" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/index.html" afterDir="false" />
@@ -22,9 +22,6 @@
       <change beforePath="$PROJECT_DIR$/../../TwitchBackend/TwitchBackend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwitchBackend/TwitchBackend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TwitchBackend/src/main/java/com/twitch/twitchbackend/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/java/com/twitch/twitchbackend/ApplicationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/WEB-INF/jupyter-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/WEB-INF/jupyter-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Favorites.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1642975467273" duration="6763000" />
       <workItem from="1643079716257" duration="4483000" />
       <workItem from="1643251834064" duration="31000" />
-      <workItem from="1643251879644" duration="6104000" />
+      <workItem from="1643251879644" duration="6234000" />
     </task>
     <task id="LOCAL-00001" summary="config: set proxy for local deployment">
       <created>1643080918950</created>
@@ -133,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643258287875</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: change the logic of favorites. old v rerender when click button, new v get Favorites once sign in and App.js track the state of add or delete favorites">
+      <created>1643258454551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643258454551</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: finish App.js">
+      <created>1643258477473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643258477473</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +169,8 @@
     <MESSAGE value="feat: combine search, recommend, register, and favorite ui" />
     <MESSAGE value="feat: finish home ui component" />
     <MESSAGE value="feat: update custom search" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update custom search" />
+    <MESSAGE value="feat: change the logic of favorites. old v rerender when click button, new v get Favorites once sign in and App.js track the state of add or delete favorites" />
+    <MESSAGE value="feat: finish App.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finish App.js" />
   </component>
 </project>
