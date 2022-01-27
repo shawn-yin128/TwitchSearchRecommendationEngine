@@ -4,17 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7676bcde-9f44-4854-a4b1-aeb3d5799890" name="Changes" comment="config: set proxy for local deployment">
-      <change afterPath="$PROJECT_DIR$/src/components/CustomSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Favorites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Register.js" afterDir="false" />
+    <list default="true" id="7676bcde-9f44-4854-a4b1-aeb3d5799890" name="Changes" comment="feat: update custom search">
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/css/main.8fcf1ae8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/css/main.8fcf1ae8.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/js/787.f1bb27b1.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/js/787.f1bb27b1.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/js/main.117ebc75.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/js/main.117ebc75.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/static/js/main.117ebc75.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TwitchBackend/TwitchBackend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwitchBackend/TwitchBackend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TwitchBackend/src/main/java/com/twitch/twitchbackend/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/java/com/twitch/twitchbackend/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/WEB-INF/jupyter-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwitchBackend/src/main/webapp/WEB-INF/jupyter-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Favorites.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +82,7 @@
       <workItem from="1642975467273" duration="6763000" />
       <workItem from="1643079716257" duration="4483000" />
       <workItem from="1643251834064" duration="31000" />
+      <workItem from="1643251879644" duration="6104000" />
     </task>
     <task id="LOCAL-00001" summary="config: set proxy for local deployment">
       <created>1643080918950</created>
@@ -70,7 +91,49 @@
       <option name="project" value="LOCAL" />
       <updated>1643080918951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: upload regsiter ui">
+      <created>1643251932468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643251932468</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: upload favorite ui">
+      <created>1643251957232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643251957232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: upload search and recommend ui">
+      <created>1643251984826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643251984826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: combine search, recommend, register, and favorite ui">
+      <created>1643252039380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643252039380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: finish home ui component">
+      <created>1643258123503</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643258123503</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: update custom search">
+      <created>1643258287875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643258287875</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +152,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="config: set proxy for local deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="config: set proxy for local deployment" />
+    <MESSAGE value="feat: upload regsiter ui" />
+    <MESSAGE value="feat: upload favorite ui" />
+    <MESSAGE value="feat: upload search and recommend ui" />
+    <MESSAGE value="feat: combine search, recommend, register, and favorite ui" />
+    <MESSAGE value="feat: finish home ui component" />
+    <MESSAGE value="feat: update custom search" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update custom search" />
   </component>
 </project>
